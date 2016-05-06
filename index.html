@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+    <title>Wikipedia Viewer</title>
+    
+    
+    
+    <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css'>
+
+        <link rel="stylesheet" href="css/style.css">
+
+    
+    
+    
+  </head>
+
+  <body>
+
+    <div class='container'>
+  <h1><span id="heading">Wikipedia Viewer</h1>
+  <div class="clearfix"></div>
+  <div class="row">
+    <div class="col-xs-8">
+      <div class="input-group">
+        <span class="input-group-addon"><i class="fa fa-search"></i></span>
+        <input type="text" id="search" class="form-control" placeholder="Search for...">
+        <span class="input-group-btn"><button class="btn btn-danger" id="empty" type="button">x</button></span>
+      </div>
+    </div>
+    <div class="col-xs-4">
+      <a href='https://en.wikipedia.org/wiki/Special:Random' class="btn btn-primary"><i class='fa fa-random'></i> Random Search</a>
+    </div>
+  </div>
+  <ul id='results' class="list-unstyled">
+  </ul>
+</div>
+    <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css'></script>
+
+        <script src="js/index.js"></script>
+
+    
+    
+    
+  </body>
+</html>
